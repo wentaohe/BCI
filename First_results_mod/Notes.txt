@@ -1,0 +1,12 @@
+Notes
+	- The lag between the dataglove position measure- ment recording and the amplifier measurement is 37ms
+	- There is a characteristic delay between brain activ-ity and resulting finger movement.
+	- The glove data is supersampled. original sampling frequecy is 40 hz. 
+
+
+	- Kubanek paper shows ECoG data in 70-200 Hz band to be most useful
+	- Optimal performance achieved when using data preceeding actual movement by 50-100 ms
+	- 6 Features for each electrode using 100 ms windows from ECoG Data:
+		5 average spectral amplitudes for 8-12, 18-24, 75-115, 125-159, 159-175 Hz
+		Local Motor Potential (LMP): Running average of raw time-domain signal
+	
